@@ -10,8 +10,6 @@
   By adding videos to your page content, you can convey helpful and heartfelt information in a different and easy-to-consume way,
   so i thought that it would be useful for you to use on your website.
 
-- Of course, there are many way to scale video on full screen, read the comments in the code and make your own choices.
-
-- good luck !
+- Of course, there are many way to scale video on full screen, read the comments in the code and make your own choices. good luck !
 
 
