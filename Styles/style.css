@@ -1,0 +1,37 @@
+body{
+    /* This is not a good mathod to show you how would look like, for example, landing page with background
+    but a hope you caught a point */
+    /* height: 200vh; */
+}
+
+.full-screen-video-container {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.full-screen-video-container video{
+    z-index: -1;
+    position: absolute;
+    /* to be honest, it caused me a problem to scale video on full screen, but "object-fit" helped, but also there are many ways to scale video on full screen, you should try other methods too. */
+    object-fit: cover;
+    width: auto;
+    height: auto;
+    min-width: 100%;
+    min-height: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.full-screen-video-content{
+    min-width: 300px;
+    background-color: white;
+    margin-top: 80px;
+    padding: 30px;
+    font-size: 70px;
+}
